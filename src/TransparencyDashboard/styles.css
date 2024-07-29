@@ -1,0 +1,76 @@
+.mwbe-header {
+  height: 12px;
+  width: 135.88px;
+  color: #6F767E;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: -0.12px;
+  line-height: 12px;
+  border-bottom-color: #EFEFEF !important;
+}
+
+.mwbe-body, .overview-body {
+  border-color: #EFEFEF !important;
+  border-top: none !important;
+}
+
+.mwbe-cell {
+  font-weight: 600;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.progress {
+  border-radius: 8px !important;
+  height: 8px !important;
+  width: 75% !important;
+  margin: auto;
+} 
+
+.progress-bar {
+  background-color: #4D72D6 !important;
+  border-radius: 8px !important;
+}
+
+.progress-orange-bar {
+  background-color: #FFBA90 !important;
+  border-radius: 8px !important;
+}
+
+.overview-cell {
+  padding: 20px 8px !important;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.overview-header-cell {
+  border-bottom-width: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.total-contracted {
+  padding-top: 16px !important;
+}
+
+@media (max-width: 576px) {
+  .overview-cell {
+    padding: 12px 8px !important;
+    font-size: 12px;
+  }
+}
+
+.table-responsive {
+  border-radius: 16px;
+}
+
+.city-body-data {
+  border-color: transparent !important;
+}
+
+td, th{
+  padding: .5rem .75rem !important;
+}

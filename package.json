@@ -1,0 +1,91 @@
+{
+  "name": "spa",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chiragrupani/fullscreen-react": "^1.2.5",
+    "@googlemaps/react-wrapper": "^1.1.24",
+    "@loadable/component": "^5.15.2",
+    "@sentry/react": "^7.60.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.17",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "aphrodite": "^2.3.1",
+    "bootstrap": "^5.1.3",
+    "cypress": "^12.17.3",
+    "date-fns": "^2.28.0",
+    "final-form": "^4.20.6",
+    "js-cookie": "^3.0.1",
+    "lodash": "^4.17.21",
+    "plotly.js": "^2.26.0",
+    "react": "^17.0.2",
+    "react-albus": "^2.0.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-bootstrap": "^2.2.3",
+    "react-dom": "^17.0.2",
+    "react-drag-drop-files": "^2.3.4",
+    "react-final-form-hooks": "^2.0.2",
+    "react-full-screen": "^1.1.1",
+    "react-google-autocomplete": "^2.6.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-paginate": "^8.1.0",
+    "react-plotly.js": "^2.6.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "react-timezone-select": "^1.3.2",
+    "react-transition-group": "^4.4.2",
+    "typescript": "^4.5.4",
+    "web-vitals": "^2.1.2",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.0/xlsx-0.20.0.tgz"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:qa": "DISABLE_ESLINT_PLUGIN='true' PORT=$(grep APP_PORT .env | cut -d '=' -f2) react-scripts start",
+    "build": "DISABLE_ESLINT_PLUGIN='true' react-scripts build",
+    "build:staging": "DISABLE_ESLINT_PLUGIN='true' REACT_APP_ENV=staging react-scripts build",
+    "build:demo": "DISABLE_ESLINT_PLUGIN='true' REACT_APP_ENV=demo react-scripts build",
+    "build:prod": "DISABLE_ESLINT_PLUGIN='true' REACT_APP_ENV=production react-scripts build",
+    "test": "react-scripts test",
+    "test-coverage": "react-scripts test \"--coverage\" \"--watchAll=false\"",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.1",
+    "@types/react-test-renderer": "^17.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "cypress": "^12.17.3",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.7.1",
+    "react-test-renderer": "^17.0.2"
+  }
+}
